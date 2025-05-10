@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Vedic Astrology Form</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <h2>🌸 Fragrance of Blessings 🌸</h2>
+    <form method="POST">
+        <label>Full Name:</label>
+        <input type="text" name="name" required pattern="[A-Za-z]+">
+
+        <label>Gender:</label>
+        <div class="gender-group">
+            <label><input type="radio" name="gender" value="Male" required> 👨 Male</label>
+            <label><input type="radio" name="gender" value="Female" required> 👩 Female</label>
+        </div>
+
+        <label>Date of Birth:</label>
+        <input type="date" name="dob" required>
+
+        <label>Time of Birth:</label>
+        <input type="time" name="tob" required>
+
+        <label>Place of Birth:</label>
+        <input type="text" name="place" required>
+        <label>Latitude:</label>
+        <input type="text" name="latitude" placeholder="28.4089" required>
+        <label>Longitude:</label>
+        <input type="text" name="longitude" placeholder="77.3178" required>
+
+        <button type="submit">✨ Generate Blessing ✨</button>
+    </form>
+</body>
+</html>
