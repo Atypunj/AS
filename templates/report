@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Your Vedic Profile</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <h2>🌟 Divine Blessing Report 🌟</h2>
+    <div class="report">
+        <p><strong>Name:</strong> {{ name }}</p>
+        <p><strong>Gender:</strong> {{ gender }}</p>
+        <p><strong>Date of Birth:</strong> {{ dob }}</p>
+        <p><strong>Time of Birth:</strong> {{ tob }}</p>
+        <p><strong>Place of Birth:</strong> {{ place }}</p>
+        <hr>
+        <p><strong>Moon Sign (Rashi):</strong> {{ moon_sign }}</p>
+        <p><strong>Ascendant (Lagna):</strong> {{ asc_sign }}</p>
+        <p><strong>Nakshatra:</strong> {{ nakshatra }}</p>
+    </div>
+</body>
+</html>
